@@ -1,0 +1,13 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "description": "",
+  "author": "ampnetmedia",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

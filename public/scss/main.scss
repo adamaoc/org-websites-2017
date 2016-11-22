@@ -1,0 +1,139 @@
+@import "bootstrap/bootstrap-base";
+body {
+	padding-top: 0;
+	@media (min-width: 768px) {
+		padding-top: 50px;
+	}
+}
+::selection {
+  background: #00b3b3;
+	color: #fff;
+}
+
+.center-list {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.navbar-fixed-top {
+	position: relative;
+	@media (min-width: 768px) {
+		position: fixed;
+	}
+}
+.navbar-default {
+	margin-bottom: 0;
+	background-color: #fff;
+
+	.navbar-brand {
+		color: #00b3b3;
+		display: flex;
+		align-items: center;
+		padding-left: 1em;
+		& svg {
+			fill: #00b3b3;
+			width: 30px;
+			height: 35px;
+			margin-right: 0.25em;
+		}
+	}
+	.navbar-nav > li > .offer-btn {
+		color: #fff;
+    padding: 8px 20px;
+    margin-top: 4px;
+		&:hover {
+			background: #444;
+			color: #fff;
+		}
+	}
+}
+
+.jumbotron {
+	background-image: url('../images/inspire-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-shadow: 1px 1px 3px #333;
+	h1 {
+		font-weight: 800;
+		background: rgba(black, 0.5);
+		display: inline;
+		line-height: 1.34em;
+		margin-bottom: 0.5em;
+		padding: 0.5rem;
+		span {
+			padding-left: 0.55rem;
+		}
+	}
+	.jumbotron-p {
+		background: rgba(black, 0.5);
+		display: inline-block;
+		margin-top: 1em;
+    padding: 0.25em 0.5em;
+	}
+}
+@media screen and (min-width: 768px) {
+	.jumbotron {
+		padding: 88px 0;
+	}
+}
+.row {
+	padding: 3em 0 !important;
+}
+
+.block-bg {
+	&--light-gray {
+		background-color: #eee;
+	}
+	&--blue {
+		background-color: #106995;
+		color: #fff;
+	}
+	&--red {
+		background-color: #6A0404;
+		color: #fff;
+	}
+}
+.max-width {
+	max-width: 700px;
+	padding: 1em;
+}
+.max-center {
+	max-width: 700px;
+	padding: 1em;
+	margin: 0 auto;
+
+	&--lg {
+		max-width: 1020px;
+	}
+}
+
+footer {
+	border-top: 1px solid #eee;
+	padding: 5em 0 1em;
+}
+
+.page-header {
+	background: #eee;
+	padding: 2.75em 2em 2em;
+  margin: 0;
+}
+
+.container-fluid {
+	&.contact-wrap {
+		height: 30em;
+		background-image: url('../images/Dashboard-Screenshot--blurred.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		border-top: 5px solid #8caace;
+		border-bottom: 5px solid #8caace;
+
+		h2 {
+			padding-bottom: 3em;
+		}
+	}
+}
+
+@import "components/pricing-box";
