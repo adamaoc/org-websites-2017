@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>ORG-Websites - Helpping get non-profit orgs setup online.</title>
-    <meta name="description" content="">
+    <meta name="description" content="We've helped many organizations begin to get the word out about their passion for helping.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="google-site-verification" content="yQCRgjSyXaEP6ZitoJHS7sOXgVj7xJg8c0cq3aSexkY" />
